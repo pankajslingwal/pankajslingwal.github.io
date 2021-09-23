@@ -1,0 +1,23 @@
+[
+    {
+        "flight": "Indigo (6E 22)",
+        "from": "DXB",
+        "to": "DEL",
+        "depart-time": "12:20",
+        "arrival-time": "04:30"
+    },
+    {
+        "flight": "Emirates (EK512)",
+        "from": "DXB",
+        "to": "BOM",
+        "depart-time": "01:20",
+        "arrival-time": "03:30"
+    },
+    {
+        "flight": "Air India (AI 0234)",
+        "from": "DXB",
+        "to": "BAN",
+        "depart-time": "13:20",
+        "arrival-time": "06:30"
+    }
+]
