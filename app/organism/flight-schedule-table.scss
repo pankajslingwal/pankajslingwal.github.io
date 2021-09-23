@@ -1,0 +1,28 @@
+.schedule-header {
+    display: none;
+}
+
+@media only screen and (min-width: 769px) {
+    .schedule-header {
+        display: flex;
+        list-style-type: none;
+    flex-direction: row;
+    border-bottom: 1px solid #999;
+    color : #9C9C9C;
+    }
+}
+
+body {
+    font-family : "Roboto","Noto",sans-serif !important;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.depart, .arrive, .flight, .duration {
+    width : 25%;
+    padding: 8px;
+}
+
+.color-highlight {
+    color: #333333;
+}

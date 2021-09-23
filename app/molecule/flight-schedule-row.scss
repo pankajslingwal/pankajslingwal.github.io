@@ -1,4 +1,30 @@
 .schedule-row {
     display: flex;
+    list-style-type: none;
+    flex-direction: column;
+    border-bottom: 1px solid #e4e4e4;
+    color : #9C9C9C;
 }
 
+
+.schedule-row li {
+    
+    padding: 8px;
+    width: 25%;
+    
+}
+
+@media only screen and (min-width: 769px) {
+    .schedule-row {
+        flex-direction: row;
+    }
+    .schedule-row:hover {
+        background-color: #f8fdf0;
+    }
+}
+
+// .flight-no {
+//     flex-direction: column;
+//     justify-content: flex-start;
+//     order: 1;
+// }
