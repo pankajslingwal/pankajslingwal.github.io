@@ -8,23 +8,49 @@
 
 
 .schedule-row li {
-    
     padding: 8px;
-    width: 25%;
-    
+    width: 20%;
 }
+
+.schedule-row li span.icon {
+    display: flex;
+    align-items: center;
+}
+
+
 
 @media only screen and (min-width: 769px) {
     .schedule-row {
         flex-direction: row;
+        margin-top: 0px;
+        margin-bottom: 0px;
     }
     .schedule-row:hover {
         background-color: #f8fdf0;
     }
 }
 
-// .flight-no {
-//     flex-direction: column;
-//     justify-content: flex-start;
-//     order: 1;
-// }
+button {
+    background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+}
+
+button:hover {
+    background-color: white; /* Green */
+    color: #4CAF50;
+    cursor: pointer;
+    border: 1px solid grey;
+  }
+
+  .schedule-row img {
+      width: 24px;
+      height: 24px;
+      margin-right: 5px;
+    margin-left: 0;
+    margin-top: 0;
+  }

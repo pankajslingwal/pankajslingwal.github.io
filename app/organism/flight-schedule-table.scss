@@ -9,6 +9,7 @@
     flex-direction: row;
     border-bottom: 1px solid #999;
     color : #9C9C9C;
+    margin-bottom: 0px;
     }
 }
 
@@ -19,10 +20,18 @@ body {
 }
 
 .depart, .arrive, .flight, .duration {
-    width : 25%;
+    width : 20%;
     padding: 8px;
 }
 
 .color-highlight {
     color: #333333;
+    font-weight: 600;
+}
+
+@media only screen and (min-width: 769px) {
+    .content {
+       margin: 0 auto;
+       max-width: 960px;
+    }
 }

@@ -1,23 +1,26 @@
 [
     {
-        "flight": "Indigo (6E 22)",
-        "from": "DXB",
-        "to": "DEL",
-        "dtime": "01:30",
-        "atime": "03:50"
-    },
-    {
-        "flight": "Emirates (EK512)",
-        "from": "DXB",
-        "to": "BOM",
-        "dtime": "12:10",
-        "atime": "13:15"
-    },
-    {
         "flight": "Air India (AI 0234)",
         "from": "DXB",
         "to": "BAN",
         "dtime": "09:30",
-        "atime": "13:20"
+        "atime": "13:20",
+        "acode": "AI"
+    },
+    {
+        "flight": "Indigo (6E 22)",
+        "from": "DXB",
+        "to": "DEL",
+        "dtime": "01:30",
+        "atime": "03:50",
+        "acode": "Indigo"
+    },
+    {
+        "flight": "Emirates (EK 512)",
+        "from": "DXB",
+        "to": "BOM",
+        "dtime": "12:10",
+        "atime": "13:15",
+        "acode": "EK"
     }
 ]

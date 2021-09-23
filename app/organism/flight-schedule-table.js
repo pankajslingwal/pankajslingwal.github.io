@@ -6,10 +6,26 @@ import mock from '../mock/flight-schedule.json';
 
 class FlightScheduleTable extends Component {
 
+  handleRowClicked = row => {
+    // const updatedData = data.map(item => {
+    //   if (row.id !== item.id) {
+    //     return item;
+    //   }
+
+    //   return {
+    //     ...item,
+    //     toggleSelected: !item.toggleSelected
+    //   };
+    // });
+
+    // setData(updatedData);
+    console.log('Pankja');
+  };
+
   render() {
     return (
-      <div className="fs-table">
-        <div className="fs-body">
+      <div className="content">
+        
           Flight Schedule Table
           <ul className="schedule-header">
             <li className="depart">Depart</li>
@@ -24,10 +40,11 @@ class FlightScheduleTable extends Component {
                 to={flight.to}
                 dtime={flight.dtime}
                 atime={flight.atime}
+                acode={flight.acode}
+                onRowClicked={this.handleRowClicked}
               />
             ))}
         </div>
-      </div>
     );
   }
 }
