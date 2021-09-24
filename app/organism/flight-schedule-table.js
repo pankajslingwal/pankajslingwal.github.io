@@ -6,37 +6,34 @@ import mock from '../mock/flight-schedule.json';
 
 class FlightScheduleTable extends Component {
 
+  state = {
+    selected: ''
+  };
+
   handleRowClicked = row => {
-    console.log(row)
-    // const updatedData = data.map(item => {
-    //   if (row.id !== item.id) {
-    //     return item;
-    //   }
+   
+     this.setState(state => ({
+      selected: row
+    }));
 
-    //   return {
-    //     ...item,
-    //     toggleSelected: !item.toggleSelected
-    //   };
-    // });
-
-    // setData(updatedData);
+    console.log(this.state.selected);   
     
   };
 
   render() {
     return (
       <div className="content">
-        
           Flight Schedule Table
           <ul className="schedule-header">
             <li className="depart">Depart</li>
             <li className="arrive">Arrive</li>
             <li className="flight">Flight</li>
             <li className="duration">Total Duration</li>
+            <li className="duration"></li>
         </ul>
           {mock.map((flight, index) => (
               <FlightScheduleTableRow
-                test={index + "s"}
+                rowid={flight.flight}
                 flight={flight.flight}
                 from={flight.from}
                 to={flight.to}
@@ -44,6 +41,7 @@ class FlightScheduleTable extends Component {
                 atime={flight.atime}
                 acode={flight.acode}
                 onRowClicked={this.handleRowClicked}
+                selected={this.state.selected != flight.flight ? false : true}
               />
             ))}
         </div>

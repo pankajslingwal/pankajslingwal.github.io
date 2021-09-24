@@ -42,8 +42,8 @@ class FlightScheduleTableRow extends Component {
         this.handleClick = this.handleClick.bind(this);
     }
 
-    handleClick = () => {
-        this.props.onRowClicked();
+    handleClick = (e) => {
+        this.props.onRowClicked(this.props.flight);
     }
 
     render() {
@@ -63,13 +63,19 @@ class FlightScheduleTableRow extends Component {
                 icon = AI;
         }
 
+        let highlight = this.props.selected ? 'selected-row' : '';
+        let classes = `schedule-row ${highlight}`;
+
         return (
-            <ul key={this.props.test} className="schedule-row">
-                <li><span className="color-highlight">{this.props.dtime}</span> ({this.props.from})</li>
-                <li><span className="color-highlight">{this.props.atime}</span> ({this.props.to})</li>
-                <li><span className="color-highlight icon"><img src={icon} alt="Logo" />{this.props.flight}</span></li>
-                <li>3h 30m</li>
-                <li><button onClick={this.handleClick}>Select Flight</button></li>
+            <ul key={this.props.rowid} className={classes}> 
+                <li className="desktop"><span className="color-highlight">{this.props.dtime}</span> ({this.props.from})</li>
+                <li className="desktop"><span className="color-highlight">{this.props.atime}</span> ({this.props.to})</li>
+                <li className="mobile"><span className="color-highlight">{this.props.dtime} - {this.props.atime}</span></li>
+                <li className="mobile"><span >{this.props.from} - {this.props.to}</span></li>
+                <li className="mobile">3h 30m</li>
+                <li className=""><span className="color-highlight icon "><img src={icon} alt="Logo" />{this.props.flight}</span></li>
+                <li className="desktop">3h 30m</li>
+                <li><button disabled={this.props.selected} onClick={this.handleClick}>Select Flight</button></li>
             </ul>
         );
     }
