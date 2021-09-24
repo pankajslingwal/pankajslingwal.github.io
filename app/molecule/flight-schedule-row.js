@@ -3,6 +3,7 @@ import './flight-schedule-row.scss';
 import Indigo from '../assets/Indigo.png';
 import AI from '../assets/AI.png';
 import EK from '../assets/EK.png';
+import CTA from '../atom/cta';
 
 // const FlightScheduleTableRow = (props) => {
 
@@ -68,14 +69,20 @@ class FlightScheduleTableRow extends Component {
 
         return (
             <ul key={this.props.rowid} className={classes}> 
-                <li className="desktop"><span className="color-highlight">{this.props.dtime}</span> ({this.props.from})</li>
-                <li className="desktop"><span className="color-highlight">{this.props.atime}</span> ({this.props.to})</li>
-                <li className="mobile"><span className="color-highlight">{this.props.dtime} - {this.props.atime}</span></li>
+                <li className="desktop"><span className="highlight">{this.props.dtime}</span> ({this.props.from})</li>
+                <li className="desktop"><span className="highlight">{this.props.atime}</span> ({this.props.to})</li>
+                <li className="mobile"><span className="highlight">{this.props.dtime} - {this.props.atime}</span></li>
                 <li className="mobile"><span >{this.props.from} - {this.props.to}</span></li>
                 <li className="mobile">3h 30m</li>
                 <li className=""><span className="color-highlight icon "><img src={icon} alt="Logo" />{this.props.flight}</span></li>
                 <li className="desktop">3h 30m</li>
-                <li><button disabled={this.props.selected} onClick={this.handleClick}>Select Flight</button></li>
+                <li>
+                    <CTA
+                        title="Select Flight" 
+                        disabled={this.props.selected} 
+                        onCtaClicked={this.handleClick}
+                    />
+                </li>
             </ul>
         );
     }

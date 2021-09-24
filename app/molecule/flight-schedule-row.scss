@@ -11,6 +11,7 @@ $blockName: ".schedule-row";
     color : $dark-grey;
     flex-wrap: wrap;
     height: 66px;
+    padding-inline-start: 20px;
 
     li {
         width: calc(50% - 10px);
@@ -27,6 +28,10 @@ $blockName: ".schedule-row";
         margin-right: 5px;
         margin-left: 0;
         margin-top: 0;
+    }
+
+    &.selected-row {
+        background-color: $light-blue;
     }
 }
 
@@ -46,14 +51,8 @@ $blockName: ".schedule-row";
             width: 20%;
         }
     }
-}
 
-@media only screen and  (min-width: $tablet) {
     button {
         width: 50%
     }
-}
-
-.selected-row {
-    background-color: $light-blue;
 }

@@ -14,20 +14,28 @@ body {
     display: block;
 }
 
-@media only screen and  (min-width: $tablet) {
-    .mobile {
-        display: none;
-    }
-}
-
 .desktop {
     display: none;
+}
+
+.highlight {
+    color: $dark-matter;
+    font-weight: 600;
 }
 
 @media only screen and  (min-width: $tablet) {
     .desktop {
         display: block;
     }
+
+    .mobile {
+        display: none;
+    }
+
+    .content {
+        margin: 0 auto;
+        max-width: 960px;
+     }
 }
 
 button {
@@ -38,7 +46,7 @@ button {
     text-decoration: none;
     display: inline-block;
     font-size: 0.9rem;
-    width: 100%;
+    width: 90%;
     height: 100%;
     &:hover {
         background-color: $white;
@@ -50,5 +58,6 @@ button {
         border: 1px solid $medium-grey;
         background-color: $heavy-grey;
         color: $super-grey;
+        border-style: outset;
     }
 }

@@ -27,7 +27,7 @@ class FlightScheduleTable extends Component {
             <li>Total Duration</li>
             <li>&nbsp;</li>
         </ul>
-          {mock.map((flight, index) => (
+          {mock.map((flight) => (
               <FlightScheduleTableRow
                 rowid={flight.flight}
                 flight={flight.flight}
