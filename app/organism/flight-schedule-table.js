@@ -7,6 +7,7 @@ import mock from '../mock/flight-schedule.json';
 class FlightScheduleTable extends Component {
 
   handleRowClicked = row => {
+    console.log('Pankaj')
     // const updatedData = data.map(item => {
     //   if (row.id !== item.id) {
     //     return item;
@@ -19,7 +20,7 @@ class FlightScheduleTable extends Component {
     // });
 
     // setData(updatedData);
-    console.log('Pankja');
+    
   };
 
   render() {
@@ -35,6 +36,7 @@ class FlightScheduleTable extends Component {
         </ul>
           {mock.map((flight) => (
               <FlightScheduleTableRow
+                key={flight.flight}
                 flight={flight.flight}
                 from={flight.from}
                 to={flight.to}
