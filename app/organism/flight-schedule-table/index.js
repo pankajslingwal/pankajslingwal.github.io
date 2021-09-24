@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import FlightScheduleTableRow from '../molecule/flight-schedule-row';
+import FlightScheduleTableRow from '../../molecule/flight-schedule-row';
 import './flight-schedule-table.scss'
-import mock from '../mock/flight-schedule.json';
+import mock from '../../mock/flight-schedule.json';
 //TODO: Mock Below api call with jest
 
 class FlightScheduleTable extends Component {

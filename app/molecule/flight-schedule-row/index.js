@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 import './flight-schedule-row.scss';
-import Indigo from '../assets/Indigo.png';
-import AI from '../assets/AI.png';
-import EK from '../assets/EK.png';
-import CTA from '../atom/cta';
+import Indigo from '../../assets/Indigo.png';
+import AI from '../../assets/AI.png';
+import EK from '../../assets/EK.png';
+import CTA from '../../atom/cta';
 
 const FlightScheduleTableRow = (props) => {
 
