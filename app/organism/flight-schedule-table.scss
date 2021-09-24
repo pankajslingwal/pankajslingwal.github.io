@@ -15,13 +15,13 @@ $blockName: ".schedule-header";
         border-bottom: 1px solid $medium-grey;
         color : $dark-grey;
         margin-bottom : 0px;
-        }
-}
 
-.depart, .arrive, .flight, .duration {
-    width : 20%;
-    padding-top: 8px;
-    padding-bottom: 8px;
+        li {
+            width : 20%;
+            padding-top: 8px;
+            padding-bottom: 8px;
+        }
+    }
 }
 
 .color-highlight {

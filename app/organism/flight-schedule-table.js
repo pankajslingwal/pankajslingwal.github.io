@@ -7,17 +7,13 @@ import mock from '../mock/flight-schedule.json';
 class FlightScheduleTable extends Component {
 
   state = {
-    selected: ''
+    selected: '',
   };
 
   handleRowClicked = row => {
-   
      this.setState(state => ({
-      selected: row
+      selected: row,
     }));
-
-    console.log(this.state.selected);   
-    
   };
 
   render() {
@@ -25,11 +21,11 @@ class FlightScheduleTable extends Component {
       <div className="content">
           Flight Schedule Table
           <ul className="schedule-header">
-            <li className="depart">Depart</li>
-            <li className="arrive">Arrive</li>
-            <li className="flight">Flight</li>
-            <li className="duration">Total Duration</li>
-            <li className="duration"></li>
+            <li>Depart</li>
+            <li>Arrive</li>
+            <li>Flight</li>
+            <li>Total Duration</li>
+            <li>&nbsp;</li>
         </ul>
           {mock.map((flight, index) => (
               <FlightScheduleTableRow
