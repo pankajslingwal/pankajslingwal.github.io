@@ -2,10 +2,11 @@
     {
         "flight": "Air India (AI0234)",
         "from": "DXB",
-        "to": "BAN",
+        "to": "BOM",
         "dtime": "09:30",
         "atime": "13:20",
-        "acode": "AI"
+        "acode": "AI",
+        "duration": "3 hours 30 minutes"
     },
     {
         "flight": "Indigo (6E22)",
@@ -13,7 +14,8 @@
         "to": "DEL",
         "dtime": "01:30",
         "atime": "03:50",
-        "acode": "Indigo"
+        "acode": "Indigo",
+        "duration": "2 hours 30 minutes"
     },
     {
         "flight": "Emirates (EK512)",
@@ -21,6 +23,7 @@
         "to": "BOM",
         "dtime": "12:10",
         "atime": "13:15",
-        "acode": "EK"
+        "acode": "EK",
+        "duration": "5 hours 30 minutes"
     }
 ]

@@ -30,17 +30,18 @@ const FlightScheduleTableRow = (props) => {
     let classes = `schedule-row ${highlight}`;
 
     return (
-        <ul key={props.rowid} className={classes}> 
+        <ul key={props.rowid} className={classes} tabindex="0" role="button" aria-label={`Flight ${props.flight} departs from ${props.from} at ${props.dtime} and arrives ${props.to} at ${props.atime}, total Flight duration is ${props.duration}.`}> 
             <li className="only-desktop"><span className="highlight">{props.dtime}</span> ({props.from})</li>
             <li className="only-desktop"><span className="highlight">{props.atime}</span> ({props.to})</li>
             <li className="only-mobile"><span className="highlight">{props.dtime} - {props.atime}</span></li>
             <li className="only-mobile"><span >{props.from} - {props.to}</span></li>
-            <li className="only-mobile">3h 30m</li>
+            <li className="only-mobile">{props.duration}</li>
             <li><span className="color-highlight icon "><img src={icon} alt="Logo" />{props.flight}</span></li>
-            <li className="only-desktop">3h 30m</li>
+            <li className="only-desktop">{props.duration}</li>
             <li>
                 <CTA
-                    title="Select Flight" 
+                    title="Select Flight"
+                    ariaLabel={`Select Flight number  ${props.flight}`}
                     disabled={props.selected} 
                     onCtaClicked={handleClick}
                 />

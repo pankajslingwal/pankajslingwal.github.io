@@ -7,7 +7,8 @@ const CTA = (props) => {
     }
 
     return (
-        <button disabled={props.disabled} onClick={handleClick}>{props.title}</button>
+        <button className={props.disabled ? 'disabled' : ''} onClick={handleClick} aria-pressed={props.disabled} aria-label={props.ariaLabel}>{props.title}</button>
+        //disabled={props.disabled}, not used as a11y annoucement is skipped for disabled buttons
     );
 }
 

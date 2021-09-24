@@ -54,7 +54,7 @@ button {
         cursor: pointer;
         border: 1px solid $grey;
     }
-    &:disabled {
+    &.disabled {
         border: 1px solid $medium-grey;
         background-color: $heavy-grey;
         color: $super-grey;

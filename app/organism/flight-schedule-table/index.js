@@ -19,7 +19,6 @@ class FlightScheduleTable extends Component {
   render() {
     return (
       <div className="content">
-          Flight Schedule Table
           <ul className="schedule-header">
             <li>Depart</li>
             <li>Arrive</li>
@@ -37,6 +36,7 @@ class FlightScheduleTable extends Component {
                 dtime={flight.dtime}
                 atime={flight.atime}
                 acode={flight.acode}
+                duration={flight.duration}
                 onRowClicked={this.handleRowClicked}
                 selected={this.state.selected != flight.flight ? false : true}
               />
