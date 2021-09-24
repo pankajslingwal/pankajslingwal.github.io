@@ -1,11 +1,12 @@
 const path = require('path');
-const HtmlWebpackPlugin = require('html-webpack-plugin');
+//const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
   mode: 'development',
   entry: path.join(__dirname, "app", "index.js"),
   output: {
-    path: path.resolve(__dirname, "dist"),
+    path: path.resolve(__dirname, "public"),
+    filename: 'main.js',
   },
   module: {
     rules: [
@@ -47,11 +48,6 @@ module.exports = {
       },
     ]
   },
-  plugins: [
-    new HtmlWebpackPlugin({
-      template: path.join(__dirname, "dist", "index.html"),
-    }),
-  ],
   performance: {
     hints: false,
     maxEntrypointSize: 512000,
