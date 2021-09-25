@@ -58,7 +58,7 @@
 
 [![Product Name Screen Shot][product-screenshot]](https://pankajslingwal.github.io)
 
-This sample React application was developed to showcase skills and knowledge on React, ES6, Webpack, Accessbility, Responsive design, CSS preprocessors, Unit tesing, Snapshot Testing (Jest & React Test Renderer), Functional testing (RTL), Component reuse (Composition, Atomic), HOC.
+This sample React application was developed to showcase skills and knowledge on React, ES6, Webpack, Accessbility, Responsive design, CSS preprocessors, Unit tesing, Snapshot Testing (Jest & React Test Renderer), Functional testing (RTL), Component reuse (Composition, Atomic), HOC & Documentation (JSDoc, ReadME.md).
 
 
 ### Built With

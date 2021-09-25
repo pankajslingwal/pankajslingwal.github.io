@@ -9,9 +9,9 @@
         "duration": "3 hours 30 minutes"
     },
     {
-        "flight": "Indigo (6E22)",
-        "from": "DXB",
-        "to": "DEL",
+        "flight": "Indigo (6E21)",
+        "from": "DEL",
+        "to": "DXB",
         "dtime": "01:30",
         "atime": "03:50",
         "acode": "Indigo",
@@ -25,5 +25,67 @@
         "atime": "13:15",
         "acode": "EK",
         "duration": "5 hours 30 minutes"
+    },
+    {
+        "flight": "Air India (AI0231)",
+        "from": "BOM",
+        "to": "NYC",
+        "dtime": "09:30",
+        "atime": "13:20",
+        "acode": "AI",
+        "duration": "3 hours 30 minutes"
+    },
+    {
+        "flight": "Indigo (6E23)",
+        "from": "HYD",
+        "to": "AHU",
+        "dtime": "01:30",
+        "atime": "03:50",
+        "acode": "Indigo",
+        "duration": "2 hours 30 minutes"
+    },
+    {
+        "flight": "Emirates (EK510)",
+        "from": "DXB",
+        "to": "PIM",
+        "dtime": "12:10",
+        "atime": "13:15",
+        "acode": "EK",
+        "duration": "5 hours 30 minutes"
+    },
+    {
+        "flight": "Air India (AI0232)",
+        "from": "PUN",
+        "to": "SAN",
+        "dtime": "09:30",
+        "atime": "13:20",
+        "acode": "AI",
+        "duration": "3 hours 30 minutes"
+    },
+    {
+        "flight": "Indigo (6E05)",
+        "from": "AMD",
+        "to": "COL",
+        "dtime": "01:30",
+        "atime": "03:50",
+        "acode": "Indigo",
+        "duration": "2 hours 30 minutes"
+    },
+    {
+        "flight": "Emirates (EK501)",
+        "from": "PHU",
+        "to": "DXB",
+        "dtime": "12:10",
+        "atime": "13:15",
+        "acode": "EK",
+        "duration": "5 hours 30 minutes"
+    },{
+        "flight": "Air India (AI0254)",
+        "from": "SIN",
+        "to": "BAN",
+        "dtime": "09:30",
+        "atime": "13:20",
+        "acode": "AI",
+        "duration": "3 hours 30 minutes"
     }
 ]
