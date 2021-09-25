@@ -102,7 +102,7 @@ Following tool and software you need to be able to enhance this project.
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-[product-screenshot]
+[![product-screenshot]]
 
 _For more examples, please refer to the [DEMO](https://pankajslingwal.github.io)
 
