@@ -56,7 +56,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+[![Product Name Screen Shot][product-screenshot]](https://pankajslingwal.github.io)
 
 This sample React application was developed to showcase skills and knowledge on React, ES6, Webpack, Accessbility, Responsive design, CSS preprocessors, Unit tesing, Snapshot Testing (Jest & React Test Renderer), Functional testing (RTL), Component reuse (Composition, Atomic), HOC.
 
@@ -102,9 +102,9 @@ Following tool and software you need to be able to enhance this project.
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
+[product-screenshot]
 
-_For more examples, please refer to the [Documentation](https://example.com)_
+_For more examples, please refer to the [DEMO](https://pankajslingwal.github.io)
 
 
 
@@ -138,18 +138,9 @@ Distributed under the MIT License. See `LICENSE` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Pankaj Singh - [@twitter_handle](https://twitter.com/twitter_handle) - pankajslingwal@gmail.com
+Pankaj Singh - pankajslingwal@gmail.com
 
 Project Link: [https://github.com/pankajslingwal/pankajslingwal.github.io](https://github.com/pankajslingwal/pankajslingwal.github.io)
-
-
-
-<!-- ACKNOWLEDGEMENTS -->
-## Acknowledgements
-
-* []()
-* []()
-* []()
 
 
 
