@@ -58,31 +58,33 @@
 
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
 
-This sample React application was developed to showcase skills and knowledge on React, ES6, Webpack, Accessbility, Responsive design, CSS preprocessors, Unit tesing, Snapshot Testing (Jest), Functional testing (RTL), Component reuse (Composition, Atomic), HOC.
+This sample React application was developed to showcase skills and knowledge on React, ES6, Webpack, Accessbility, Responsive design, CSS preprocessors, Unit tesing, Snapshot Testing (Jest & React Test Renderer), Functional testing (RTL), Component reuse (Composition, Atomic), HOC.
 
 
 ### Built With
 
-This section should list any major frameworks that you built your project using. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
-* [Bootstrap](https://getbootstrap.com)
-* [JQuery](https://jquery.com)
-* [Laravel](https://laravel.com)
+This section lists major tool, library and frameworks that were used to built this project. 
+* [React]
+* [Scss]
+* [Webpack]
+* [React Test Renderer]
+* [Jest]
+* [RTL]
+* [Nvda]
 
 
 
 <!-- GETTING STARTED -->
 ## Getting Started
 
-This is an example of how you may give instructions on setting up your project locally.
 To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
 
-This is an example of how to list things you need to use the software and how to install them.
-* npm
-  ```sh
-  npm install npm@latest -g
-  ```
+Following tool and software you need to be able to enhance this project.
+* [Node >= 12.0.0]
+* [NPM]
+* [NVDA]
 
 ### Installation
 
