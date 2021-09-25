@@ -5,7 +5,11 @@ import AI from '../../assets/AI.png';
 import EK from '../../assets/EK.png';
 import CTA from '../../atom/cta';
 import Image from '../../atom/image';
+import PropTypes from 'prop-types';
 
+/**
+ * Component renders single row within flight schedule table.
+ */
 const FlightScheduleTableRow = (props) => {
 
     const handleClick = () => {
@@ -57,5 +61,30 @@ const FlightScheduleTableRow = (props) => {
         </ul>
     );
 }
+
+FlightScheduleTableRow.propTypes = {
+    /** index within list */
+    index: PropTypes.number,
+    /** unique key within list */
+    rowid: PropTypes.string,
+    /** flight name */
+    flight: PropTypes.string,
+    /** origin code */
+    from: PropTypes.string,
+    /** destination code */
+    to: PropTypes.string,
+    /** departure time */
+    dtime: PropTypes.string,
+    /** arrival time */
+    atime: PropTypes.string,
+    /** airline code */
+    acode: PropTypes.string,
+    /** total duration of flight */
+    duration: PropTypes.string,
+    /** parent function where row click event will be passed */
+    onRowClicked: PropTypes.func,
+    /** if row is selected then value is true else false */
+    selected: PropTypes.bool
+  };
 
 export default FlightScheduleTableRow;

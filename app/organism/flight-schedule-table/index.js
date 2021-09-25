@@ -3,7 +3,12 @@ import FlightScheduleTableRow from '../../molecule/flight-schedule-row';
 import './flight-schedule-table.scss'
 import mock from '../../mock/flight-schedule.json';
 //TODO: Mock Below api call with jest
+import PropTypes from 'prop-types';
 
+/**
+ * Component renders flight schedule table.
+ * @extends Component
+ */
 class FlightScheduleTable extends Component {
 
   state = {
@@ -28,7 +33,6 @@ class FlightScheduleTable extends Component {
         </ul>
           {mock.map((flight, index) => (
               <FlightScheduleTableRow
-                key={flight.flight}
                 index={index}
                 rowid={flight.flight}
                 flight={flight.flight}
@@ -46,5 +50,9 @@ class FlightScheduleTable extends Component {
     );
   }
 }
+
+FlightScheduleTable.propTypes = {
+  
+};
 
 export default FlightScheduleTable;

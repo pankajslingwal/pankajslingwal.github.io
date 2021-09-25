@@ -109,7 +109,7 @@ exports[`Flight Schedule Table renders correctly 1`] = `
     </li>
   </ul>
   <ul
-    aria-label="Flight Indigo (6E22) departs from DXB at 01:30 and arrives DEL at 03:50, total Flight duration is 2 hours 30 minutes."
+    aria-label="Flight Indigo (6E21) departs from DEL at 01:30 and arrives DXB at 03:50, total Flight duration is 2 hours 30 minutes."
     className="schedule-row "
     data-testid="schedule-row-1"
     role="button"
@@ -124,7 +124,7 @@ exports[`Flight Schedule Table renders correctly 1`] = `
         01:30
       </span>
        (
-      DXB
+      DEL
       )
     </li>
     <li
@@ -136,7 +136,7 @@ exports[`Flight Schedule Table renders correctly 1`] = `
         03:50
       </span>
        (
-      DEL
+      DXB
       )
     </li>
     <li
@@ -154,9 +154,9 @@ exports[`Flight Schedule Table renders correctly 1`] = `
       className="only-mobile"
     >
       <span>
-        DXB
-         - 
         DEL
+         - 
+        DXB
       </span>
     </li>
     <li
@@ -169,10 +169,10 @@ exports[`Flight Schedule Table renders correctly 1`] = `
         className="color-highlight icon "
       >
         <img
-          alt="Flight Indigo (6E22) logo"
+          alt="Flight Indigo (6E21) logo"
           src="test-file-stub"
         />
-        Indigo (6E22)
+        Indigo (6E21)
       </span>
     </li>
     <li
@@ -182,11 +182,11 @@ exports[`Flight Schedule Table renders correctly 1`] = `
     </li>
     <li>
       <button
-        aria-label="Select Flight number Indigo (6E22)"
+        aria-label="Select Flight number Indigo (6E21)"
         aria-pressed={false}
         className=""
         onClick={[Function]}
-        title="Select Flight number Indigo (6E22)"
+        title="Select Flight number Indigo (6E21)"
         type="submit"
       >
         Select Flight
@@ -272,6 +272,601 @@ exports[`Flight Schedule Table renders correctly 1`] = `
         className=""
         onClick={[Function]}
         title="Select Flight number Emirates (EK512)"
+        type="submit"
+      >
+        Select Flight
+      </button>
+    </li>
+  </ul>
+  <ul
+    aria-label="Flight Air India (AI0231) departs from BOM at 09:30 and arrives NYC at 13:20, total Flight duration is 3 hours 30 minutes."
+    className="schedule-row "
+    data-testid="schedule-row-3"
+    role="button"
+    tabIndex="0"
+  >
+    <li
+      className="only-desktop"
+    >
+      <span
+        className="highlight"
+      >
+        09:30
+      </span>
+       (
+      BOM
+      )
+    </li>
+    <li
+      className="only-desktop"
+    >
+      <span
+        className="highlight"
+      >
+        13:20
+      </span>
+       (
+      NYC
+      )
+    </li>
+    <li
+      className="only-mobile"
+    >
+      <span
+        className="highlight"
+      >
+        09:30
+         - 
+        13:20
+      </span>
+    </li>
+    <li
+      className="only-mobile"
+    >
+      <span>
+        BOM
+         - 
+        NYC
+      </span>
+    </li>
+    <li
+      className="only-mobile"
+    >
+      3 hours 30 minutes
+    </li>
+    <li>
+      <span
+        className="color-highlight icon "
+      >
+        <img
+          alt="Flight Air India (AI0231) logo"
+          src="test-file-stub"
+        />
+        Air India (AI0231)
+      </span>
+    </li>
+    <li
+      className="only-desktop"
+    >
+      3 hours 30 minutes
+    </li>
+    <li>
+      <button
+        aria-label="Select Flight number Air India (AI0231)"
+        aria-pressed={false}
+        className=""
+        onClick={[Function]}
+        title="Select Flight number Air India (AI0231)"
+        type="submit"
+      >
+        Select Flight
+      </button>
+    </li>
+  </ul>
+  <ul
+    aria-label="Flight Indigo (6E23) departs from HYD at 01:30 and arrives AHU at 03:50, total Flight duration is 2 hours 30 minutes."
+    className="schedule-row "
+    data-testid="schedule-row-4"
+    role="button"
+    tabIndex="0"
+  >
+    <li
+      className="only-desktop"
+    >
+      <span
+        className="highlight"
+      >
+        01:30
+      </span>
+       (
+      HYD
+      )
+    </li>
+    <li
+      className="only-desktop"
+    >
+      <span
+        className="highlight"
+      >
+        03:50
+      </span>
+       (
+      AHU
+      )
+    </li>
+    <li
+      className="only-mobile"
+    >
+      <span
+        className="highlight"
+      >
+        01:30
+         - 
+        03:50
+      </span>
+    </li>
+    <li
+      className="only-mobile"
+    >
+      <span>
+        HYD
+         - 
+        AHU
+      </span>
+    </li>
+    <li
+      className="only-mobile"
+    >
+      2 hours 30 minutes
+    </li>
+    <li>
+      <span
+        className="color-highlight icon "
+      >
+        <img
+          alt="Flight Indigo (6E23) logo"
+          src="test-file-stub"
+        />
+        Indigo (6E23)
+      </span>
+    </li>
+    <li
+      className="only-desktop"
+    >
+      2 hours 30 minutes
+    </li>
+    <li>
+      <button
+        aria-label="Select Flight number Indigo (6E23)"
+        aria-pressed={false}
+        className=""
+        onClick={[Function]}
+        title="Select Flight number Indigo (6E23)"
+        type="submit"
+      >
+        Select Flight
+      </button>
+    </li>
+  </ul>
+  <ul
+    aria-label="Flight Emirates (EK510) departs from DXB at 12:10 and arrives PIM at 13:15, total Flight duration is 5 hours 30 minutes."
+    className="schedule-row "
+    data-testid="schedule-row-5"
+    role="button"
+    tabIndex="0"
+  >
+    <li
+      className="only-desktop"
+    >
+      <span
+        className="highlight"
+      >
+        12:10
+      </span>
+       (
+      DXB
+      )
+    </li>
+    <li
+      className="only-desktop"
+    >
+      <span
+        className="highlight"
+      >
+        13:15
+      </span>
+       (
+      PIM
+      )
+    </li>
+    <li
+      className="only-mobile"
+    >
+      <span
+        className="highlight"
+      >
+        12:10
+         - 
+        13:15
+      </span>
+    </li>
+    <li
+      className="only-mobile"
+    >
+      <span>
+        DXB
+         - 
+        PIM
+      </span>
+    </li>
+    <li
+      className="only-mobile"
+    >
+      5 hours 30 minutes
+    </li>
+    <li>
+      <span
+        className="color-highlight icon "
+      >
+        <img
+          alt="Flight Emirates (EK510) logo"
+          src="test-file-stub"
+        />
+        Emirates (EK510)
+      </span>
+    </li>
+    <li
+      className="only-desktop"
+    >
+      5 hours 30 minutes
+    </li>
+    <li>
+      <button
+        aria-label="Select Flight number Emirates (EK510)"
+        aria-pressed={false}
+        className=""
+        onClick={[Function]}
+        title="Select Flight number Emirates (EK510)"
+        type="submit"
+      >
+        Select Flight
+      </button>
+    </li>
+  </ul>
+  <ul
+    aria-label="Flight Air India (AI0232) departs from PUN at 09:30 and arrives SAN at 13:20, total Flight duration is 3 hours 30 minutes."
+    className="schedule-row "
+    data-testid="schedule-row-6"
+    role="button"
+    tabIndex="0"
+  >
+    <li
+      className="only-desktop"
+    >
+      <span
+        className="highlight"
+      >
+        09:30
+      </span>
+       (
+      PUN
+      )
+    </li>
+    <li
+      className="only-desktop"
+    >
+      <span
+        className="highlight"
+      >
+        13:20
+      </span>
+       (
+      SAN
+      )
+    </li>
+    <li
+      className="only-mobile"
+    >
+      <span
+        className="highlight"
+      >
+        09:30
+         - 
+        13:20
+      </span>
+    </li>
+    <li
+      className="only-mobile"
+    >
+      <span>
+        PUN
+         - 
+        SAN
+      </span>
+    </li>
+    <li
+      className="only-mobile"
+    >
+      3 hours 30 minutes
+    </li>
+    <li>
+      <span
+        className="color-highlight icon "
+      >
+        <img
+          alt="Flight Air India (AI0232) logo"
+          src="test-file-stub"
+        />
+        Air India (AI0232)
+      </span>
+    </li>
+    <li
+      className="only-desktop"
+    >
+      3 hours 30 minutes
+    </li>
+    <li>
+      <button
+        aria-label="Select Flight number Air India (AI0232)"
+        aria-pressed={false}
+        className=""
+        onClick={[Function]}
+        title="Select Flight number Air India (AI0232)"
+        type="submit"
+      >
+        Select Flight
+      </button>
+    </li>
+  </ul>
+  <ul
+    aria-label="Flight Indigo (6E05) departs from AMD at 01:30 and arrives COL at 03:50, total Flight duration is 2 hours 30 minutes."
+    className="schedule-row "
+    data-testid="schedule-row-7"
+    role="button"
+    tabIndex="0"
+  >
+    <li
+      className="only-desktop"
+    >
+      <span
+        className="highlight"
+      >
+        01:30
+      </span>
+       (
+      AMD
+      )
+    </li>
+    <li
+      className="only-desktop"
+    >
+      <span
+        className="highlight"
+      >
+        03:50
+      </span>
+       (
+      COL
+      )
+    </li>
+    <li
+      className="only-mobile"
+    >
+      <span
+        className="highlight"
+      >
+        01:30
+         - 
+        03:50
+      </span>
+    </li>
+    <li
+      className="only-mobile"
+    >
+      <span>
+        AMD
+         - 
+        COL
+      </span>
+    </li>
+    <li
+      className="only-mobile"
+    >
+      2 hours 30 minutes
+    </li>
+    <li>
+      <span
+        className="color-highlight icon "
+      >
+        <img
+          alt="Flight Indigo (6E05) logo"
+          src="test-file-stub"
+        />
+        Indigo (6E05)
+      </span>
+    </li>
+    <li
+      className="only-desktop"
+    >
+      2 hours 30 minutes
+    </li>
+    <li>
+      <button
+        aria-label="Select Flight number Indigo (6E05)"
+        aria-pressed={false}
+        className=""
+        onClick={[Function]}
+        title="Select Flight number Indigo (6E05)"
+        type="submit"
+      >
+        Select Flight
+      </button>
+    </li>
+  </ul>
+  <ul
+    aria-label="Flight Emirates (EK501) departs from PHU at 12:10 and arrives DXB at 13:15, total Flight duration is 5 hours 30 minutes."
+    className="schedule-row "
+    data-testid="schedule-row-8"
+    role="button"
+    tabIndex="0"
+  >
+    <li
+      className="only-desktop"
+    >
+      <span
+        className="highlight"
+      >
+        12:10
+      </span>
+       (
+      PHU
+      )
+    </li>
+    <li
+      className="only-desktop"
+    >
+      <span
+        className="highlight"
+      >
+        13:15
+      </span>
+       (
+      DXB
+      )
+    </li>
+    <li
+      className="only-mobile"
+    >
+      <span
+        className="highlight"
+      >
+        12:10
+         - 
+        13:15
+      </span>
+    </li>
+    <li
+      className="only-mobile"
+    >
+      <span>
+        PHU
+         - 
+        DXB
+      </span>
+    </li>
+    <li
+      className="only-mobile"
+    >
+      5 hours 30 minutes
+    </li>
+    <li>
+      <span
+        className="color-highlight icon "
+      >
+        <img
+          alt="Flight Emirates (EK501) logo"
+          src="test-file-stub"
+        />
+        Emirates (EK501)
+      </span>
+    </li>
+    <li
+      className="only-desktop"
+    >
+      5 hours 30 minutes
+    </li>
+    <li>
+      <button
+        aria-label="Select Flight number Emirates (EK501)"
+        aria-pressed={false}
+        className=""
+        onClick={[Function]}
+        title="Select Flight number Emirates (EK501)"
+        type="submit"
+      >
+        Select Flight
+      </button>
+    </li>
+  </ul>
+  <ul
+    aria-label="Flight Air India (AI0254) departs from SIN at 09:30 and arrives BAN at 13:20, total Flight duration is 3 hours 30 minutes."
+    className="schedule-row "
+    data-testid="schedule-row-9"
+    role="button"
+    tabIndex="0"
+  >
+    <li
+      className="only-desktop"
+    >
+      <span
+        className="highlight"
+      >
+        09:30
+      </span>
+       (
+      SIN
+      )
+    </li>
+    <li
+      className="only-desktop"
+    >
+      <span
+        className="highlight"
+      >
+        13:20
+      </span>
+       (
+      BAN
+      )
+    </li>
+    <li
+      className="only-mobile"
+    >
+      <span
+        className="highlight"
+      >
+        09:30
+         - 
+        13:20
+      </span>
+    </li>
+    <li
+      className="only-mobile"
+    >
+      <span>
+        SIN
+         - 
+        BAN
+      </span>
+    </li>
+    <li
+      className="only-mobile"
+    >
+      3 hours 30 minutes
+    </li>
+    <li>
+      <span
+        className="color-highlight icon "
+      >
+        <img
+          alt="Flight Air India (AI0254) logo"
+          src="test-file-stub"
+        />
+        Air India (AI0254)
+      </span>
+    </li>
+    <li
+      className="only-desktop"
+    >
+      3 hours 30 minutes
+    </li>
+    <li>
+      <button
+        aria-label="Select Flight number Air India (AI0254)"
+        aria-pressed={false}
+        className=""
+        onClick={[Function]}
+        title="Select Flight number Air India (AI0254)"
         type="submit"
       >
         Select Flight
