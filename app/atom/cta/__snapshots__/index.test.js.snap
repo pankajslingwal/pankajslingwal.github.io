@@ -1,6 +1,30 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`CTA renders correctly 1`] = `
+exports[`CTA renders correctly, data passed, disabled is false 1`] = `
+<button
+  aria-label="Select Flight number EK 512"
+  aria-pressed={false}
+  className=""
+  onClick={[Function]}
+  title="Select Flight number EK 512"
+>
+  Select Flight
+</button>
+`;
+
+exports[`CTA renders correctly, data passed, disabled is true 1`] = `
+<button
+  aria-label="Select Flight number EK 512"
+  aria-pressed={true}
+  className="disabled"
+  onClick={[Function]}
+  title="Select Flight number EK 512"
+>
+  Select Flight
+</button>
+`;
+
+exports[`CTA renders correctly, no data passed 1`] = `
 <button
   className=""
   onClick={[Function]}

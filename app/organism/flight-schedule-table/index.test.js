@@ -8,6 +8,6 @@ describe("Flight Schedule Table", () => {
     it('renders correctly', () => {
         const tree = renderer.create(<FlightScheduleTable />).toJSON();
         expect(tree).toMatchSnapshot();
-    }) 
+    });
 
 });

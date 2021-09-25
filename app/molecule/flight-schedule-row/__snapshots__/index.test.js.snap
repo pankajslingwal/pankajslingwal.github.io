@@ -1,6 +1,178 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Flight Schedule Row renders correctly 1`] = `
+exports[`Flight Schedule Row renders correctly, data passed, selected is false 1`] = `
+<ul
+  aria-label="Flight Emirates (EK512) departs from DXB at 12:10 and arrives BOM at 13:15, total Flight duration is 5 hours 30 minutes."
+  className="schedule-row "
+  role="button"
+  tabIndex="0"
+>
+  <li
+    className="only-desktop"
+  >
+    <span
+      className="highlight"
+    >
+      12:10
+    </span>
+     (
+    DXB
+    )
+  </li>
+  <li
+    className="only-desktop"
+  >
+    <span
+      className="highlight"
+    >
+      13:15
+    </span>
+     (
+    BOM
+    )
+  </li>
+  <li
+    className="only-mobile"
+  >
+    <span
+      className="highlight"
+    >
+      12:10
+       - 
+      13:15
+    </span>
+  </li>
+  <li
+    className="only-mobile"
+  >
+    <span>
+      DXB
+       - 
+      BOM
+    </span>
+  </li>
+  <li
+    className="only-mobile"
+  >
+    5 hours 30 minutes
+  </li>
+  <li>
+    <span
+      className="color-highlight icon "
+    >
+      <img
+        alt="Flight Emirates (EK512) logo"
+        src="test-file-stub"
+      />
+      Emirates (EK512)
+    </span>
+  </li>
+  <li
+    className="only-desktop"
+  >
+    5 hours 30 minutes
+  </li>
+  <li>
+    <button
+      aria-label="Select Flight number Emirates (EK512)"
+      aria-pressed={false}
+      className=""
+      onClick={[Function]}
+      title="Select Flight number Emirates (EK512)"
+    >
+      Select Flight
+    </button>
+  </li>
+</ul>
+`;
+
+exports[`Flight Schedule Row renders correctly, data passed, selected is true 1`] = `
+<ul
+  aria-label="Flight Emirates (EK512) departs from DXB at 12:10 and arrives BOM at 13:15, total Flight duration is 5 hours 30 minutes."
+  className="schedule-row selected-row"
+  role="button"
+  tabIndex="0"
+>
+  <li
+    className="only-desktop"
+  >
+    <span
+      className="highlight"
+    >
+      12:10
+    </span>
+     (
+    DXB
+    )
+  </li>
+  <li
+    className="only-desktop"
+  >
+    <span
+      className="highlight"
+    >
+      13:15
+    </span>
+     (
+    BOM
+    )
+  </li>
+  <li
+    className="only-mobile"
+  >
+    <span
+      className="highlight"
+    >
+      12:10
+       - 
+      13:15
+    </span>
+  </li>
+  <li
+    className="only-mobile"
+  >
+    <span>
+      DXB
+       - 
+      BOM
+    </span>
+  </li>
+  <li
+    className="only-mobile"
+  >
+    5 hours 30 minutes
+  </li>
+  <li>
+    <span
+      className="color-highlight icon "
+    >
+      <img
+        alt="Flight Emirates (EK512) logo"
+        src="test-file-stub"
+      />
+      Emirates (EK512)
+    </span>
+  </li>
+  <li
+    className="only-desktop"
+  >
+    5 hours 30 minutes
+  </li>
+  <li>
+    <button
+      aria-label="Select Flight number Emirates (EK512)"
+      aria-pressed={true}
+      className="disabled"
+      onClick={[Function]}
+      title="Select Flight number Emirates (EK512)"
+    >
+      Select Flight
+    </button>
+  </li>
+</ul>
+`;
+
+exports[`Flight Schedule Row renders correctly, no data passed 1`] = `
 <ul
   aria-label="Flight undefined departs from undefined at undefined and arrives undefined at undefined, total Flight duration is undefined."
   className="schedule-row "

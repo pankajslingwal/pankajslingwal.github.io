@@ -1,3 +1,10 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Image renders correctly 1`] = `<img />`;
+exports[`Image renders correctly, data passed 1`] = `
+<img
+  alt="Flight Air India (AI0234) logo"
+  src="test-file-stub"
+/>
+`;
+
+exports[`Image renders correctly, no data 1`] = `<img />`;
