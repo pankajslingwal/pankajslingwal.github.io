@@ -1,0 +1,276 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div
+  className="content"
+>
+  <ul
+    className="schedule-header"
+  >
+    <li>
+      Depart
+    </li>
+    <li>
+      Arrive
+    </li>
+    <li>
+      Flight
+    </li>
+    <li>
+      Total Duration
+    </li>
+    <li>
+       
+    </li>
+  </ul>
+  <ul
+    aria-label="Flight Air India (AI0234) departs from DXB at 09:30 and arrives BOM at 13:20, total Flight duration is 3 hours 30 minutes."
+    className="schedule-row "
+    role="button"
+    tabIndex="0"
+  >
+    <li
+      className="only-desktop"
+    >
+      <span
+        className="highlight"
+      >
+        09:30
+      </span>
+       (
+      DXB
+      )
+    </li>
+    <li
+      className="only-desktop"
+    >
+      <span
+        className="highlight"
+      >
+        13:20
+      </span>
+       (
+      BOM
+      )
+    </li>
+    <li
+      className="only-mobile"
+    >
+      <span
+        className="highlight"
+      >
+        09:30
+         - 
+        13:20
+      </span>
+    </li>
+    <li
+      className="only-mobile"
+    >
+      <span>
+        DXB
+         - 
+        BOM
+      </span>
+    </li>
+    <li
+      className="only-mobile"
+    >
+      3 hours 30 minutes
+    </li>
+    <li>
+      <span
+        className="color-highlight icon "
+      >
+        <img
+          alt="Flight Air India (AI0234) logo"
+          src="test-file-stub"
+        />
+        Air India (AI0234)
+      </span>
+    </li>
+    <li
+      className="only-desktop"
+    >
+      3 hours 30 minutes
+    </li>
+    <li>
+      <button
+        aria-label="Select Flight number Air India (AI0234)"
+        aria-pressed={false}
+        className=""
+        onClick={[Function]}
+        title="Select Flight number Air India (AI0234)"
+      >
+        Select Flight
+      </button>
+    </li>
+  </ul>
+  <ul
+    aria-label="Flight Indigo (6E22) departs from DXB at 01:30 and arrives DEL at 03:50, total Flight duration is 2 hours 30 minutes."
+    className="schedule-row "
+    role="button"
+    tabIndex="0"
+  >
+    <li
+      className="only-desktop"
+    >
+      <span
+        className="highlight"
+      >
+        01:30
+      </span>
+       (
+      DXB
+      )
+    </li>
+    <li
+      className="only-desktop"
+    >
+      <span
+        className="highlight"
+      >
+        03:50
+      </span>
+       (
+      DEL
+      )
+    </li>
+    <li
+      className="only-mobile"
+    >
+      <span
+        className="highlight"
+      >
+        01:30
+         - 
+        03:50
+      </span>
+    </li>
+    <li
+      className="only-mobile"
+    >
+      <span>
+        DXB
+         - 
+        DEL
+      </span>
+    </li>
+    <li
+      className="only-mobile"
+    >
+      2 hours 30 minutes
+    </li>
+    <li>
+      <span
+        className="color-highlight icon "
+      >
+        <img
+          alt="Flight Indigo (6E22) logo"
+          src="test-file-stub"
+        />
+        Indigo (6E22)
+      </span>
+    </li>
+    <li
+      className="only-desktop"
+    >
+      2 hours 30 minutes
+    </li>
+    <li>
+      <button
+        aria-label="Select Flight number Indigo (6E22)"
+        aria-pressed={false}
+        className=""
+        onClick={[Function]}
+        title="Select Flight number Indigo (6E22)"
+      >
+        Select Flight
+      </button>
+    </li>
+  </ul>
+  <ul
+    aria-label="Flight Emirates (EK512) departs from DXB at 12:10 and arrives BOM at 13:15, total Flight duration is 5 hours 30 minutes."
+    className="schedule-row "
+    role="button"
+    tabIndex="0"
+  >
+    <li
+      className="only-desktop"
+    >
+      <span
+        className="highlight"
+      >
+        12:10
+      </span>
+       (
+      DXB
+      )
+    </li>
+    <li
+      className="only-desktop"
+    >
+      <span
+        className="highlight"
+      >
+        13:15
+      </span>
+       (
+      BOM
+      )
+    </li>
+    <li
+      className="only-mobile"
+    >
+      <span
+        className="highlight"
+      >
+        12:10
+         - 
+        13:15
+      </span>
+    </li>
+    <li
+      className="only-mobile"
+    >
+      <span>
+        DXB
+         - 
+        BOM
+      </span>
+    </li>
+    <li
+      className="only-mobile"
+    >
+      5 hours 30 minutes
+    </li>
+    <li>
+      <span
+        className="color-highlight icon "
+      >
+        <img
+          alt="Flight Emirates (EK512) logo"
+          src="test-file-stub"
+        />
+        Emirates (EK512)
+      </span>
+    </li>
+    <li
+      className="only-desktop"
+    >
+      5 hours 30 minutes
+    </li>
+    <li>
+      <button
+        aria-label="Select Flight number Emirates (EK512)"
+        aria-pressed={false}
+        className=""
+        onClick={[Function]}
+        title="Select Flight number Emirates (EK512)"
+      >
+        Select Flight
+      </button>
+    </li>
+  </ul>
+</div>
+`;
