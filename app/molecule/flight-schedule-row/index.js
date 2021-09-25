@@ -27,11 +27,11 @@ const FlightScheduleTableRow = (props) => {
             icon = AI;
     }
 
-    let highlight = props.selected ? 'selected-row' : '';
-    let classes = `schedule-row ${highlight}`;
+    const highlight = props.selected ? 'selected-row' : '';
+    const classes = `schedule-row ${highlight}`;
 
     return (
-        <ul key={props.rowid} className={classes} tabIndex="0" role="button" aria-label={`Flight ${props.flight} departs from ${props.from} at ${props.dtime} and arrives ${props.to} at ${props.atime}, total Flight duration is ${props.duration}.`}> 
+        <ul key={props.rowid} data-testid={`schedule-row-${props.index}`} className={classes} tabIndex="0" role="button" aria-label={`Flight ${props.flight} departs from ${props.from} at ${props.dtime} and arrives ${props.to} at ${props.atime}, total Flight duration is ${props.duration}.`}> 
             <li className="only-desktop"><span className="highlight">{props.dtime}</span> ({props.from})</li>
             <li className="only-desktop"><span className="highlight">{props.atime}</span> ({props.to})</li>
             <li className="only-mobile"><span className="highlight">{props.dtime} - {props.atime}</span></li>

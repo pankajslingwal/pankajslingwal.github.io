@@ -2,7 +2,6 @@ import React from 'react';
 import renderer from 'react-test-renderer';
 import FlightScheduleTableRow from './';
 
-
 describe("Flight Schedule Row", () => {
 
     it('renders correctly, no data passed', () => {
@@ -47,5 +46,4 @@ describe("Flight Schedule Row", () => {
         const tree = renderer.create(<FlightScheduleTableRow {...props} />).toJSON();
         expect(tree).toMatchSnapshot();
     });
-
 });

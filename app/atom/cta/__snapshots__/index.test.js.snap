@@ -5,8 +5,9 @@ exports[`CTA renders correctly, data passed, disabled is false 1`] = `
   aria-label="Select Flight number EK 512"
   aria-pressed={false}
   className=""
-  onClick={[Function]}
+  onClick={[MockFunction]}
   title="Select Flight number EK 512"
+  type="submit"
 >
   Select Flight
 </button>
@@ -17,8 +18,9 @@ exports[`CTA renders correctly, data passed, disabled is true 1`] = `
   aria-label="Select Flight number EK 512"
   aria-pressed={true}
   className="disabled"
-  onClick={[Function]}
+  onClick={[MockFunction]}
   title="Select Flight number EK 512"
+  type="submit"
 >
   Select Flight
 </button>
@@ -27,6 +29,6 @@ exports[`CTA renders correctly, data passed, disabled is true 1`] = `
 exports[`CTA renders correctly, no data passed 1`] = `
 <button
   className=""
-  onClick={[Function]}
+  type="submit"
 />
 `;

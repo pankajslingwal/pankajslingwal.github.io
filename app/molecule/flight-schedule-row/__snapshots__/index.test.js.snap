@@ -4,6 +4,7 @@ exports[`Flight Schedule Row renders correctly, data passed, selected is false 1
 <ul
   aria-label="Flight Emirates (EK512) departs from DXB at 12:10 and arrives BOM at 13:15, total Flight duration is 5 hours 30 minutes."
   className="schedule-row "
+  data-testid="schedule-row-undefined"
   role="button"
   tabIndex="0"
 >
@@ -79,6 +80,7 @@ exports[`Flight Schedule Row renders correctly, data passed, selected is false 1
       className=""
       onClick={[Function]}
       title="Select Flight number Emirates (EK512)"
+      type="submit"
     >
       Select Flight
     </button>
@@ -90,6 +92,7 @@ exports[`Flight Schedule Row renders correctly, data passed, selected is true 1`
 <ul
   aria-label="Flight Emirates (EK512) departs from DXB at 12:10 and arrives BOM at 13:15, total Flight duration is 5 hours 30 minutes."
   className="schedule-row selected-row"
+  data-testid="schedule-row-undefined"
   role="button"
   tabIndex="0"
 >
@@ -165,6 +168,7 @@ exports[`Flight Schedule Row renders correctly, data passed, selected is true 1`
       className="disabled"
       onClick={[Function]}
       title="Select Flight number Emirates (EK512)"
+      type="submit"
     >
       Select Flight
     </button>
@@ -176,6 +180,7 @@ exports[`Flight Schedule Row renders correctly, no data passed 1`] = `
 <ul
   aria-label="Flight undefined departs from undefined at undefined and arrives undefined at undefined, total Flight duration is undefined."
   className="schedule-row "
+  data-testid="schedule-row-undefined"
   role="button"
   tabIndex="0"
 >
@@ -235,6 +240,7 @@ exports[`Flight Schedule Row renders correctly, no data passed 1`] = `
       className=""
       onClick={[Function]}
       title="Select Flight number undefined"
+      type="submit"
     >
       Select Flight
     </button>
