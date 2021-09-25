@@ -102,7 +102,9 @@ Following tool and software you need to be able to enhance this project.
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-[![product-screenshot]]
+![product-screenshot]
+![product-screenshot1]
+![product-screenshot2]
 
 _For more examples, please refer to the [DEMO](https://pankajslingwal.github.io)
 
@@ -161,3 +163,5 @@ Project Link: [https://github.com/pankajslingwal/pankajslingwal.github.io](https
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/pankajsingh2013/
 [product-screenshot]: https://github.com/pankajslingwal/MyWebApp/blob/master/FlightSearchScreenShot.PNG
+[product-screenshot1]: https://github.com/pankajslingwal/MyWebApp/blob/master/FlightSearchScreenShot1.PNG
+[product-screenshot2]: https://github.com/pankajslingwal/MyWebApp/blob/master/FlightSearchScreenShot2.PNG
