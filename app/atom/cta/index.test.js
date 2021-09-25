@@ -1,12 +1,12 @@
 import React from 'react';
 import renderer from 'react-test-renderer';
-import FlightScheduleTable from './';
+import CTA from './';
 
 
-describe("Flight Schedule Table", () => {
+describe("CTA", () => {
 
     it('renders correctly', () => {
-        const tree = renderer.create(<FlightScheduleTable />).toJSON();
+        const tree = renderer.create(<CTA />).toJSON();
         expect(tree).toMatchSnapshot();
     }) 
 

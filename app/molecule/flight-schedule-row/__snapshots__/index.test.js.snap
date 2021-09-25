@@ -1,0 +1,71 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Flight Schedule Row renders correctly 1`] = `
+<ul
+  aria-label="Flight undefined departs from undefined at undefined and arrives undefined at undefined, total Flight duration is undefined."
+  className="schedule-row "
+  role="button"
+  tabIndex="0"
+>
+  <li
+    className="only-desktop"
+  >
+    <span
+      className="highlight"
+    />
+     (
+    )
+  </li>
+  <li
+    className="only-desktop"
+  >
+    <span
+      className="highlight"
+    />
+     (
+    )
+  </li>
+  <li
+    className="only-mobile"
+  >
+    <span
+      className="highlight"
+    >
+       - 
+    </span>
+  </li>
+  <li
+    className="only-mobile"
+  >
+    <span>
+       - 
+    </span>
+  </li>
+  <li
+    className="only-mobile"
+  />
+  <li>
+    <span
+      className="color-highlight icon "
+    >
+      <img
+        alt="Flight undefined logo"
+        src="test-file-stub"
+      />
+    </span>
+  </li>
+  <li
+    className="only-desktop"
+  />
+  <li>
+    <button
+      aria-label="Select Flight number undefined"
+      className=""
+      onClick={[Function]}
+      title="Select Flight number undefined"
+    >
+      Select Flight
+    </button>
+  </li>
+</ul>
+`;
