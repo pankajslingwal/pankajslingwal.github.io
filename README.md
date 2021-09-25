@@ -104,7 +104,7 @@ Following tool and software you need to be able to enhance this project.
 
 ![product-screenshot]
 ![product-screenshot1]
-![product-screenshot2]
+      ![product-screenshot2]
 
 _For more examples, please refer to the [DEMO](https://pankajslingwal.github.io)
 
