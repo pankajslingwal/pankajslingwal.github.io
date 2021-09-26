@@ -9,6 +9,19 @@ exports[`Flight Schedule Row renders correctly, data passed, selected is false 1
   tabIndex="0"
 >
   <li
+    className="only-s-mobile"
+  >
+    <span
+      className="color-highlight icon "
+    >
+      <img
+        alt="Flight Emirates (EK512) logo"
+        src="test-file-stub"
+      />
+      Emirates (EK512)
+    </span>
+  </li>
+  <li
     className="only-desktop"
   >
     <span
@@ -57,7 +70,9 @@ exports[`Flight Schedule Row renders correctly, data passed, selected is false 1
   >
     5 hours 30 minutes
   </li>
-  <li>
+  <li
+    className="not-s-mobile"
+  >
     <span
       className="color-highlight icon "
     >
@@ -97,6 +112,19 @@ exports[`Flight Schedule Row renders correctly, data passed, selected is true 1`
   tabIndex="0"
 >
   <li
+    className="only-s-mobile"
+  >
+    <span
+      className="color-highlight icon "
+    >
+      <img
+        alt="Flight Emirates (EK512) logo"
+        src="test-file-stub"
+      />
+      Emirates (EK512)
+    </span>
+  </li>
+  <li
     className="only-desktop"
   >
     <span
@@ -145,7 +173,9 @@ exports[`Flight Schedule Row renders correctly, data passed, selected is true 1`
   >
     5 hours 30 minutes
   </li>
-  <li>
+  <li
+    className="not-s-mobile"
+  >
     <span
       className="color-highlight icon "
     >
@@ -185,6 +215,18 @@ exports[`Flight Schedule Row renders correctly, no data passed 1`] = `
   tabIndex="0"
 >
   <li
+    className="only-s-mobile"
+  >
+    <span
+      className="color-highlight icon "
+    >
+      <img
+        alt="Flight undefined logo"
+        src="test-file-stub"
+      />
+    </span>
+  </li>
+  <li
     className="only-desktop"
   >
     <span
@@ -221,7 +263,9 @@ exports[`Flight Schedule Row renders correctly, no data passed 1`] = `
   <li
     className="only-mobile"
   />
-  <li>
+  <li
+    className="not-s-mobile"
+  >
     <span
       className="color-highlight icon "
     >

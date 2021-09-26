@@ -31,6 +31,19 @@ exports[`Flight Schedule Table renders correctly 1`] = `
     tabIndex="0"
   >
     <li
+      className="only-s-mobile"
+    >
+      <span
+        className="color-highlight icon "
+      >
+        <img
+          alt="Flight Air India (AI0234) logo"
+          src="test-file-stub"
+        />
+        Air India (AI0234)
+      </span>
+    </li>
+    <li
       className="only-desktop"
     >
       <span
@@ -79,7 +92,9 @@ exports[`Flight Schedule Table renders correctly 1`] = `
     >
       3 hours 30 minutes
     </li>
-    <li>
+    <li
+      className="not-s-mobile"
+    >
       <span
         className="color-highlight icon "
       >
@@ -115,6 +130,19 @@ exports[`Flight Schedule Table renders correctly 1`] = `
     role="button"
     tabIndex="0"
   >
+    <li
+      className="only-s-mobile"
+    >
+      <span
+        className="color-highlight icon "
+      >
+        <img
+          alt="Flight Indigo (6E21) logo"
+          src="test-file-stub"
+        />
+        Indigo (6E21)
+      </span>
+    </li>
     <li
       className="only-desktop"
     >
@@ -164,7 +192,9 @@ exports[`Flight Schedule Table renders correctly 1`] = `
     >
       2 hours 30 minutes
     </li>
-    <li>
+    <li
+      className="not-s-mobile"
+    >
       <span
         className="color-highlight icon "
       >
@@ -200,6 +230,19 @@ exports[`Flight Schedule Table renders correctly 1`] = `
     role="button"
     tabIndex="0"
   >
+    <li
+      className="only-s-mobile"
+    >
+      <span
+        className="color-highlight icon "
+      >
+        <img
+          alt="Flight Emirates (EK512) logo"
+          src="test-file-stub"
+        />
+        Emirates (EK512)
+      </span>
+    </li>
     <li
       className="only-desktop"
     >
@@ -249,7 +292,9 @@ exports[`Flight Schedule Table renders correctly 1`] = `
     >
       5 hours 30 minutes
     </li>
-    <li>
+    <li
+      className="not-s-mobile"
+    >
       <span
         className="color-highlight icon "
       >
@@ -285,6 +330,19 @@ exports[`Flight Schedule Table renders correctly 1`] = `
     role="button"
     tabIndex="0"
   >
+    <li
+      className="only-s-mobile"
+    >
+      <span
+        className="color-highlight icon "
+      >
+        <img
+          alt="Flight Air India (AI0231) logo"
+          src="test-file-stub"
+        />
+        Air India (AI0231)
+      </span>
+    </li>
     <li
       className="only-desktop"
     >
@@ -334,7 +392,9 @@ exports[`Flight Schedule Table renders correctly 1`] = `
     >
       3 hours 30 minutes
     </li>
-    <li>
+    <li
+      className="not-s-mobile"
+    >
       <span
         className="color-highlight icon "
       >
@@ -370,6 +430,19 @@ exports[`Flight Schedule Table renders correctly 1`] = `
     role="button"
     tabIndex="0"
   >
+    <li
+      className="only-s-mobile"
+    >
+      <span
+        className="color-highlight icon "
+      >
+        <img
+          alt="Flight Indigo (6E23) logo"
+          src="test-file-stub"
+        />
+        Indigo (6E23)
+      </span>
+    </li>
     <li
       className="only-desktop"
     >
@@ -419,7 +492,9 @@ exports[`Flight Schedule Table renders correctly 1`] = `
     >
       2 hours 30 minutes
     </li>
-    <li>
+    <li
+      className="not-s-mobile"
+    >
       <span
         className="color-highlight icon "
       >
@@ -455,6 +530,19 @@ exports[`Flight Schedule Table renders correctly 1`] = `
     role="button"
     tabIndex="0"
   >
+    <li
+      className="only-s-mobile"
+    >
+      <span
+        className="color-highlight icon "
+      >
+        <img
+          alt="Flight Emirates (EK510) logo"
+          src="test-file-stub"
+        />
+        Emirates (EK510)
+      </span>
+    </li>
     <li
       className="only-desktop"
     >
@@ -504,7 +592,9 @@ exports[`Flight Schedule Table renders correctly 1`] = `
     >
       5 hours 30 minutes
     </li>
-    <li>
+    <li
+      className="not-s-mobile"
+    >
       <span
         className="color-highlight icon "
       >
@@ -540,6 +630,19 @@ exports[`Flight Schedule Table renders correctly 1`] = `
     role="button"
     tabIndex="0"
   >
+    <li
+      className="only-s-mobile"
+    >
+      <span
+        className="color-highlight icon "
+      >
+        <img
+          alt="Flight Air India (AI0232) logo"
+          src="test-file-stub"
+        />
+        Air India (AI0232)
+      </span>
+    </li>
     <li
       className="only-desktop"
     >
@@ -589,7 +692,9 @@ exports[`Flight Schedule Table renders correctly 1`] = `
     >
       3 hours 30 minutes
     </li>
-    <li>
+    <li
+      className="not-s-mobile"
+    >
       <span
         className="color-highlight icon "
       >
@@ -625,6 +730,19 @@ exports[`Flight Schedule Table renders correctly 1`] = `
     role="button"
     tabIndex="0"
   >
+    <li
+      className="only-s-mobile"
+    >
+      <span
+        className="color-highlight icon "
+      >
+        <img
+          alt="Flight Indigo (6E05) logo"
+          src="test-file-stub"
+        />
+        Indigo (6E05)
+      </span>
+    </li>
     <li
       className="only-desktop"
     >
@@ -674,7 +792,9 @@ exports[`Flight Schedule Table renders correctly 1`] = `
     >
       2 hours 30 minutes
     </li>
-    <li>
+    <li
+      className="not-s-mobile"
+    >
       <span
         className="color-highlight icon "
       >
@@ -710,6 +830,19 @@ exports[`Flight Schedule Table renders correctly 1`] = `
     role="button"
     tabIndex="0"
   >
+    <li
+      className="only-s-mobile"
+    >
+      <span
+        className="color-highlight icon "
+      >
+        <img
+          alt="Flight Emirates (EK501) logo"
+          src="test-file-stub"
+        />
+        Emirates (EK501)
+      </span>
+    </li>
     <li
       className="only-desktop"
     >
@@ -759,7 +892,9 @@ exports[`Flight Schedule Table renders correctly 1`] = `
     >
       5 hours 30 minutes
     </li>
-    <li>
+    <li
+      className="not-s-mobile"
+    >
       <span
         className="color-highlight icon "
       >
@@ -795,6 +930,19 @@ exports[`Flight Schedule Table renders correctly 1`] = `
     role="button"
     tabIndex="0"
   >
+    <li
+      className="only-s-mobile"
+    >
+      <span
+        className="color-highlight icon "
+      >
+        <img
+          alt="Flight Air India (AI0254) logo"
+          src="test-file-stub"
+        />
+        Air India (AI0254)
+      </span>
+    </li>
     <li
       className="only-desktop"
     >
@@ -844,7 +992,9 @@ exports[`Flight Schedule Table renders correctly 1`] = `
     >
       3 hours 30 minutes
     </li>
-    <li>
+    <li
+      className="not-s-mobile"
+    >
       <span
         className="color-highlight icon "
       >
