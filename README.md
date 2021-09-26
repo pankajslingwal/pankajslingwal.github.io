@@ -98,6 +98,22 @@ Following tool and software you need to be able to enhance this project.
    ```sh
    npm install
    ```
+3. Build Application
+   ```sh
+   npm run build
+   ```
+4. Run Application locally
+   ```sh
+   npm run start
+   ```
+5. Run Snapshot test and Functional test
+   ```sh
+   npm run test
+   ```
+6. See code documentation on https://localhost:6060/
+   ```sh
+   npm run styleguide
+   ```
 
 
 
