@@ -18,6 +18,14 @@ body {
     display: none;
 }
 
+.only-s-mobile {
+    display: none;
+}
+
+.not-s-mobile {
+    display: block;
+}
+
 .highlight {
     color: $dark-matter;
     font-weight: 600;
@@ -36,6 +44,16 @@ body {
         margin: 0 auto;
         max-width: 960px;
      }
+}
+
+@media only screen and  (max-width: $xsmall) {
+    .only-s-mobile {
+        display: block;
+    }
+    
+    .not-s-mobile {
+        display: none;
+    }
 }
 
 button {

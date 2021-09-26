@@ -33,15 +33,49 @@ $blockName: ".schedule-row";
     &.selected-row {
         background-color: $light-blue;
     }
+
+    button {
+        width: 125px;
+    }
 }
 
-@media only screen and  (min-width: $tablet) {
+@media only screen and  (max-width: $xsmall) {
+    #{$blockName} {
+        height: 125px;
+        padding-inline-start: 11px;
+        padding-right: 10px;
+        margin-left: calc(17%);
+        li {
+            width: 100%;
+        }
+
+        li:not(:first-child) {
+            margin-left: 29px;
+        }
+
+        button {
+            width: 106px;
+        }
+    }    
+}
+
+@media only screen and (min-width: $xsmall) and (max-width: $tablet) {
+    #{$blockName} {
+        margin-left: calc(10%);
+        button {
+            width: 20%;
+        }
+    }
+}
+
+@media only screen and (min-width: $tablet) {
     #{$blockName} {
         flex-direction: row;
         margin-top: 0px;
         margin-bottom: 0px;
         flex-wrap: nowrap;
         height: auto;
+
         &:hover:not(.selected-row) {
             background-color: $very-light-grey;
         }
@@ -50,9 +84,11 @@ $blockName: ".schedule-row";
             padding: 8px 0 8px 0;
             width: 20%;
         }
+
+        button {
+            width: 80%;
+        }       
     }
 
-    button {
-        width: 50%
-    }
+    
 }

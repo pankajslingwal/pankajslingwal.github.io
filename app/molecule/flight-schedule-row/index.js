@@ -35,19 +35,30 @@ const FlightScheduleTableRow = (props) => {
     const classes = `schedule-row ${highlight}`;
 
     return (
-        <ul key={props.rowid} data-testid={`schedule-row-${props.index}`} className={classes} tabIndex="0" role="button" aria-label={`Flight ${props.flight} departs from ${props.from} at ${props.dtime} and arrives ${props.to} at ${props.atime}, total Flight duration is ${props.duration}.`}> 
-            <li className="only-desktop"><span className="highlight">{props.dtime}</span> ({props.from})</li>
-            <li className="only-desktop"><span className="highlight">{props.atime}</span> ({props.to})</li>
-            <li className="only-mobile"><span className="highlight">{props.dtime} - {props.atime}</span></li>
-            <li className="only-mobile"><span >{props.from} - {props.to}</span></li>
-            <li className="only-mobile">{props.duration}</li>
-            <li><span className="color-highlight icon ">
+        <ul key={props.rowid} data-testid={`schedule-row-${props.index}`} className={classes} tabIndex="0" role="button" aria-label={`Flight ${props.flight} departs from ${props.from} at ${props.dtime} and arrives ${props.to} at ${props.atime}, total Flight duration is ${props.duration}.`}>
+            <li className="only-s-mobile">
+                <span className="color-highlight icon ">
                     <Image
                         source={icon}
                         alt={`Flight ${props.flight} logo`}
                     />
                     {props.flight}
-                </span></li>
+                </span>
+            </li>
+            <li className="only-desktop"><span className="highlight">{props.dtime}</span> ({props.from})</li>
+            <li className="only-desktop"><span className="highlight">{props.atime}</span> ({props.to})</li>
+            <li className="only-mobile"><span className="highlight">{props.dtime} - {props.atime}</span></li>
+            <li className="only-mobile"><span >{props.from} - {props.to}</span></li>
+            <li className="only-mobile">{props.duration}</li>
+            <li className="not-s-mobile">
+                <span className="color-highlight icon ">
+                    <Image
+                        source={icon}
+                        alt={`Flight ${props.flight} logo`}
+                    />
+                    {props.flight}
+                </span>
+            </li>
             <li className="only-desktop">{props.duration}</li>
             <li>
                 <CTA
