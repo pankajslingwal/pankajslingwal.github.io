@@ -2,7 +2,7 @@ const path = require('path');
 
 module.exports = {
   mode: 'development',
-  entry: path.join(__dirname, "app", "index.js"),
+  entry: ['core-js/stable', path.join(__dirname, "app", "index.js")],
   output: {
     path: path.resolve(__dirname, "public"),
     filename: 'main.js',

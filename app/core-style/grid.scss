@@ -53,11 +53,15 @@ button {
         color: $light-green;
         cursor: pointer;
         border: 1px solid $grey;
+        margin-bottom: -1px; // to avoid fluctuation in IE on hover
+        margin-top: -1px; // to avoid fluctuation in IE on hover
     }
     &.disabled {
         border: 1px solid $medium-grey;
         background-color: $heavy-grey;
         color: $super-grey;
         border-style: outset;
+        margin-bottom: -1px; // to avoid fluctuation in IE on disabled
+        margin-top: -1px; // to avoid fluctuation in IE on disabled
     }
 }

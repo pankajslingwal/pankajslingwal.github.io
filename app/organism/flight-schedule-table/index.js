@@ -33,6 +33,7 @@ class FlightScheduleTable extends Component {
         </ul>
           {mock.map((flight, index) => (
               <FlightScheduleTableRow
+                key={flight.flight}
                 index={index}
                 rowid={flight.flight}
                 flight={flight.flight}
