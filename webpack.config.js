@@ -6,6 +6,7 @@ module.exports = {
   output: {
     path: path.resolve(__dirname, "public"),
     filename: 'main.js',
+    chunkFormat: 'commonjs',
   },
   module: {
     rules: [
@@ -52,4 +53,5 @@ module.exports = {
     maxEntrypointSize: 512000,
     maxAssetSize: 512000
   },
+  target: ['es5']
 }
