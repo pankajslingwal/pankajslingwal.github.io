@@ -126,6 +126,10 @@ Following tool and software you need to be able to enhance this project.
 
 _For more examples, please refer to the [DEMO](https://pankajslingwal.github.io)
 
+[StyleGuide (Documentation)](https://pankajslingwal.github.io/styleguide/)
+
+[Test Report](https://pankajslingwal.github.io/coverage/lcov-report/)
+
 
 
 <!-- ROADMAP -->
