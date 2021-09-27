@@ -11,7 +11,7 @@ module.exports = {
     rules: [
       {
         test: /\.?js$/,
-        exclude: /node_modules/,
+        exclude: [/node_modules/, /public/, /styleguide/, /coverage/],
         use: {
           loader: "babel-loader",
           options: {
@@ -21,7 +21,7 @@ module.exports = {
       },
       {
         test: /\.?scss$/,
-        exclude: /node_modules/,
+        exclude: [/node_modules/, /public/, /styleguide/, /coverage/],
         use: [
           {
             loader: 'style-loader',
